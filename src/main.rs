@@ -1,11 +1,3 @@
-
-use core::num;
-use std::{f32::DIGITS, io, str::Chars};
-fn convert_to_int(data: &str) -> i32{
-  let x = data.trim().parse::<i32>().unwrap();
-  x
-}
-
 fn main() {
  let mut a = 16;
  let mut b = 12;
